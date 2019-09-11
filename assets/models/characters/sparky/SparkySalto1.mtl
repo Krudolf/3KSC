@@ -1,0 +1,38 @@
+newmtl SparkySalto1:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tex_sparky.png
+Ni 1.00
+newmtl sarkyult:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tex_sparky.png
+Ni 1.00
+newmtl sarkyult:metralleta:Cylinder010SG6
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tex_metralleta.png
+Ni 1.00
+Ks 0.25 0.25 0.25
+Ns 7.61
+newmtl ult3:Cylinder010SG6
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.25 0.25 0.25
+Ns 7.61
+newmtl ult3:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tex_sparky.png
+Ni 1.00

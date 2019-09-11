@@ -1,0 +1,24 @@
+# Blender MTL File: 'sparky_punch.blend'
+# Material Count: 2
+
+newmtl Material.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.080000 0.080000 0.080000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_sparky.png
+
+newmtl Material.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.070360 0.070360 0.070360
+Ks 0.000000 0.000000 0.000000
+Ke 0.007036 0.007036 0.007036
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd tex_sparky.png

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{3a65137a-608d-45f2-a7ed-0fb514210e12}">
+        <property name="name">
+            <value>stun</value>
+        </property>
+        <relationship name="folder">
+            <destination>{edc23a1f-a7fd-49a8-a76c-17ad097010cc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{43fc9ab9-dccb-4124-a124-ec003fbf3c08}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{43fc9ab9-dccb-4124-a124-ec003fbf3c08}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

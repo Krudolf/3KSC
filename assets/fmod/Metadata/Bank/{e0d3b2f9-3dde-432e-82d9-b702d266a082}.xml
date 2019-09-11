@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="Bank" id="{e0d3b2f9-3dde-432e-82d9-b702d266a082}">
+        <property name="name">
+            <value>Miyagi</value>
+        </property>
+        <relationship name="folder">
+            <destination>{122ef19d-c8cd-48be-a50c-23e08a6ff1d4}</destination>
+        </relationship>
+    </object>
+</objects>

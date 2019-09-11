@@ -1,0 +1,24 @@
+# Menu Main screen
+
+# sn is used for screen name [SPRITE_URL X Y WIDTH HEIGHT Z_INDEX(OPTIONAL)]
+sn  assets/UI/menu_screens/Main/Name.png    0   -267    1024    128 
+
+# n is used for menu nodes [INDEX SPRITE_URL X Y WIDTH HEIGHT]
+n   0   assets/UI/menu_screens/Main/Play.png        0   0   1024    140
+n   1   assets/UI/menu_screens/Main/Controls.png    0   0   1024    140
+n   2   assets/UI/menu_screens/Main/Quit.png        0   0   1024    140
+
+# hl, vl and tl are used to link nodes horizontally, vertically and with their targets
+hl  0   1
+hl  1   2
+hl  2   0
+
+tl  0   CharacterLocal
+tl  1   Tutorial
+
+# ps, ns and ss are used to link screen with previous, next and settings screen
+ps  Title
+ss  GameSettings
+
+# c is used for controls tutorial [TEX1 TEX2]
+c   assets/UI/menu_screens/Controls/JS_Type3.png    assets/UI/menu_screens/Controls/KB_Type3.png

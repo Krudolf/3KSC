@@ -1,0 +1,39 @@
+# Battle settings screen
+
+# sn is used for screen name [SPRITE_URL X Y WIDTH HEIGHT Z_INDEX(OPTIONAL)]
+sn  assets/UI/menu_screens/BattleSettings/Name.png  0   -267    1024    128 
+
+# n is used for menu nodes [INDEX SPRITE_URL X Y WIDTH HEIGHT]
+n   0   assets/UI/menu_screens/BattleSettings/Lives.png     0    -45    900     80
+n   1   assets/UI/menu_screens/BattleSettings/Dificulty.png 0     45    900     80
+
+# Numbers
+n   2   assets/UI/menu_screens/Common/01.png              187    -45     64     64      1
+n   3   assets/UI/menu_screens/Common/01.png              187     45     64     64      1
+
+# t is used to add extra textures to a node sprite [NODE_INDEX TEXTURE_URL]
+t   2   assets/UI/menu_screens/Common/02.png
+t   2   assets/UI/menu_screens/Common/03.png
+t   2   assets/UI/menu_screens/Common/04.png
+t   2   assets/UI/menu_screens/Common/05.png
+t   2   assets/UI/menu_screens/Common/06.png
+
+t   3   assets/UI/menu_screens/Common/02.png
+t   3   assets/UI/menu_screens/Common/03.png
+t   3   assets/UI/menu_screens/Common/04.png
+t   3   assets/UI/menu_screens/Common/05.png
+t   3   assets/UI/menu_screens/Common/06.png
+
+# s is used for selector (hand cursor) [SPRITE_URL WIDTH HEIGHT]
+s   assets/UI/menu_screens/Common/Selector.png  64  64
+
+# hl, vl and tl are used to link nodes horizontally, vertically and with their targets
+vl  0   1
+vl  1   0
+
+# ps, ns and ss are used to link screen with previous, next and settings screen
+ps  CharacterLocal
+ns  CharacterLocal
+
+# c is used for controls tutorial [TEX1 TEX2]
+c   assets/UI/menu_screens/Controls/JS_Type2.png    assets/UI/menu_screens/Controls/KB_Type2.png

@@ -1,0 +1,93 @@
+# Game settings screen
+
+# sn is used for screen name [SPRITE_URL X Y WIDTH HEIGHT Z_INDEX(OPTIONAL)]
+sn  assets/UI/menu_screens/Settings/Name.png    0   -267    1024    128 
+
+# n is used for menu nodes [INDEX SPRITE_URL X Y WIDTH HEIGHT (OPTIONAL: Z_INDEX)]
+n   0   assets/UI/menu_screens/Settings/BGM.png             0    -90    900     80
+n   1   assets/UI/menu_screens/Settings/FX.png              0      0    900     80
+n   2   assets/UI/menu_screens/Settings/Voices.png          0     90    900     80
+
+# Numbers
+n   3   assets/UI/menu_screens/Common/00.png              187    -90     64     64      1
+n   4   assets/UI/menu_screens/Common/00.png              187      0     64     64      1
+n   5   assets/UI/menu_screens/Common/00.png              187     90     64     64      1
+
+# t is used to add extra textures to a node sprite [NODE_INDEX TEXTURE_URL]
+t   3   assets/UI/menu_screens/Common/01.png
+t   3   assets/UI/menu_screens/Common/02.png
+t   3   assets/UI/menu_screens/Common/03.png
+t   3   assets/UI/menu_screens/Common/04.png
+t   3   assets/UI/menu_screens/Common/05.png
+t   3   assets/UI/menu_screens/Common/06.png
+t   3   assets/UI/menu_screens/Common/07.png
+t   3   assets/UI/menu_screens/Common/08.png
+t   3   assets/UI/menu_screens/Common/09.png
+t   3   assets/UI/menu_screens/Common/10.png
+t   3   assets/UI/menu_screens/Common/11.png
+t   3   assets/UI/menu_screens/Common/12.png
+t   3   assets/UI/menu_screens/Common/13.png
+t   3   assets/UI/menu_screens/Common/14.png
+t   3   assets/UI/menu_screens/Common/15.png
+t   3   assets/UI/menu_screens/Common/16.png
+t   3   assets/UI/menu_screens/Common/17.png
+t   3   assets/UI/menu_screens/Common/18.png
+t   3   assets/UI/menu_screens/Common/19.png
+t   3   assets/UI/menu_screens/Common/20.png
+
+t   4   assets/UI/menu_screens/Common/01.png
+t   4   assets/UI/menu_screens/Common/02.png
+t   4   assets/UI/menu_screens/Common/03.png
+t   4   assets/UI/menu_screens/Common/04.png
+t   4   assets/UI/menu_screens/Common/05.png
+t   4   assets/UI/menu_screens/Common/06.png
+t   4   assets/UI/menu_screens/Common/07.png
+t   4   assets/UI/menu_screens/Common/08.png
+t   4   assets/UI/menu_screens/Common/09.png
+t   4   assets/UI/menu_screens/Common/10.png
+t   4   assets/UI/menu_screens/Common/11.png
+t   4   assets/UI/menu_screens/Common/12.png
+t   4   assets/UI/menu_screens/Common/13.png
+t   4   assets/UI/menu_screens/Common/14.png
+t   4   assets/UI/menu_screens/Common/15.png
+t   4   assets/UI/menu_screens/Common/16.png
+t   4   assets/UI/menu_screens/Common/17.png
+t   4   assets/UI/menu_screens/Common/18.png
+t   4   assets/UI/menu_screens/Common/19.png
+t   4   assets/UI/menu_screens/Common/20.png
+
+t   5   assets/UI/menu_screens/Common/01.png
+t   5   assets/UI/menu_screens/Common/02.png
+t   5   assets/UI/menu_screens/Common/03.png
+t   5   assets/UI/menu_screens/Common/04.png
+t   5   assets/UI/menu_screens/Common/05.png
+t   5   assets/UI/menu_screens/Common/06.png
+t   5   assets/UI/menu_screens/Common/07.png
+t   5   assets/UI/menu_screens/Common/08.png
+t   5   assets/UI/menu_screens/Common/09.png
+t   5   assets/UI/menu_screens/Common/10.png
+t   5   assets/UI/menu_screens/Common/11.png
+t   5   assets/UI/menu_screens/Common/12.png
+t   5   assets/UI/menu_screens/Common/13.png
+t   5   assets/UI/menu_screens/Common/14.png
+t   5   assets/UI/menu_screens/Common/15.png
+t   5   assets/UI/menu_screens/Common/16.png
+t   5   assets/UI/menu_screens/Common/17.png
+t   5   assets/UI/menu_screens/Common/18.png
+t   5   assets/UI/menu_screens/Common/19.png
+t   5   assets/UI/menu_screens/Common/20.png
+
+# s is used for selector (hand cursor) [SPRITE_URL WIDTH HEIGHT]
+s   assets/UI/menu_screens/Common/Selector.png  64  64
+
+# hl, vl and tl are used to link nodes horizontally, vertically and with their targets
+vl  0   1
+vl  1   2
+vl  2   0
+
+# ps, ns and ss are used to link screen with previous, next and settings screen
+ps  Main
+ns  Main
+
+# c is used for controls tutorial [TEX1 TEX2]
+c   assets/UI/menu_screens/Controls/JS_Type2.png    assets/UI/menu_screens/Controls/KB_Type2.png

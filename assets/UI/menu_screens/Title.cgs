@@ -1,0 +1,13 @@
+# Title screen
+
+# n is used for menu nodes [INDEX SPRITE_URL X Y WIDTH HEIGHT]
+n   0   assets/UI/menu_screens/Title/Title_JS.png        0   0   1024    768
+
+# t is used to add extra textures to a node sprite [NODE_INDEX TEXTURE_URL]
+t   0   assets/UI/menu_screens/Title/Title_KB.png
+
+# hl, vl and tl are used to link nodes horizontally, vertically and with their targets
+tl  0    Main
+
+# ps, ns and ss are used to link screen with previous, next and settings screen
+ns  Main

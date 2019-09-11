@@ -1,0 +1,55 @@
+# Fichero para el mapa FusFus_Stadium del juego 3KSC
+
+# m se utiliza para marcar los modelos para los mapas, su escala y su posicion: ruta_modelo escala_modelo posx posy posz
+m assets/models/arenas/Fusfus_stadium/Estadio_Fusfus.obj 1 0 0 0
+
+# c se utiliza para la camara: posx posy posz(de la camara) posx posy posz(del target)
+c 0 10 -16 0 8 150
+
+#gl Global light
+gl 0 10 0 -5 -2 -0
+
+# pl se utiliza para la luz: posX posY posZ | atenuacion (0.0f - 1.0f)
+pl 0 -10 100 0
+pl 0 10 10 0
+
+# mu se utiliza para el sonido: Id para cargar un banco de musica, ruta de la musica, nombre para el sonido
+mu SoundID::S_FOSFOS_STADIUM event:/music/fosfosStadium fos_music
+
+# w se usa para los waypoints: id posx posy
+w 0 -15 1
+w 1 -4.7 1
+w 2 4.7 1
+w 3 15 1
+w 4 -11.5 6
+w 5 -5 6
+w 6 5 6
+w 7 11.5 6
+w 8 -2.7 10
+w 9 2.7 10
+
+# wp se usa para unir los waypoints: id de ambos waypoints
+wp 0 1
+wp 1 2
+wp 2 3
+wp 4 5
+wp 6 7
+wp 8 9
+wp 0 4
+wp 1 5
+wp 2 6
+wp 3 7
+wp 5 8
+wp 6 9
+
+# sp se usa para delimitar las posiciones de spawn de cada uno de los 4 jugadores: posx posy posz
+sp -12 -2 0 12 2 0 -7 5.5 0 7 5.5 0
+
+# rp se usa para marcar la posicion de respawn de los jugadores cuando mueren: posx posy posz
+rp 0 17 0
+
+# si se usa para marcar el rango donde pueden aparecer los objetos y su altura: posxMin posxMax posy
+si -12.5 12.5 17
+
+# sk se utiliza para marcar las imagenes usadas en el skybox: lista de urls de las imagenes
+sk 85 assets/skyboxes/fusfus_skybox/stratosphere_ft.tga assets/skyboxes/fusfus_skybox/stratosphere_bk.tga assets/skyboxes/fusfus_skybox/stratosphere_up.tga assets/skyboxes/fusfus_skybox/stratosphere_dn.tga assets/skyboxes/fusfus_skybox/stratosphere_rt.tga assets/skyboxes/fusfus_skybox/stratosphere_lf.tga

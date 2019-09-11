@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="Event" id="{0b5ec7d7-0eb2-4600-bb9b-107994350b42}">
+        <relationship name="uiLastParameterSelection">
+            <destination>{07ff7d3f-6f05-44fe-b8e9-a80cc3ee982d}</destination>
+        </relationship>
+    </object>
+    <object class="MasterTrack" id="{50358fa4-e656-4d88-b4f9-3ce8006e6c3b}"/>
+    <object class="MixerInput" id="{8c934f6a-3e21-4e52-8fc3-849dbd0f5adf}"/>
+    <object class="EventAutomatableProperties" id="{4b2cea3d-aac5-4e36-bc47-8b7733ea6a09}"/>
+    <object class="MarkerTrack" id="{e68b6ae5-e5d4-46de-9d02-65b6587e668b}"/>
+    <object class="GroupTrack" id="{93a3f48d-fc49-4102-be57-71e2c9dfb038}"/>
+    <object class="Timeline" id="{07ff7d3f-6f05-44fe-b8e9-a80cc3ee982d}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.016137708445400752</value>
+        </property>
+    </object>
+    <object class="EventMixerMaster" id="{c069ea1a-8e24-4e00-884c-6265fd00e3c2}">
+        <relationship name="input">
+            <destination>{f37b04e4-b03d-4548-a936-00c05daec9ce}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{b9e9ef75-92a3-4782-9286-44e53e557128}"/>
+    <object class="MixerBusPanner" id="{d67c8694-7a6f-48d4-8487-af61f5045b25}"/>
+    <object class="EventMixerGroup" id="{f37b04e4-b03d-4548-a936-00c05daec9ce}"/>
+    <object class="MixerBusEffectChain" id="{f50f7939-ff3f-4e16-91af-935a1843238c}"/>
+    <object class="MixerBusPanner" id="{c6d89523-937f-4532-866b-21d202e8e040}"/>
+    <object class="MixerBusFader" id="{bc98cea7-037f-4c23-8846-343a294c67c2}"/>
+    <object class="MixerBusEffectChain" id="{266ae474-30cb-4252-adaa-d056271f08ba}"/>
+    <object class="MixerBusPanner" id="{9d153d5b-2e89-42ab-8119-8a9b06566aae}"/>
+    <object class="MixerBusFader" id="{ce62b96c-5c3a-41fe-9d86-eeb7dbd8eda6}"/>
+    <object class="MixerBusFader" id="{9d4d152e-9a18-4b01-93b8-6a1cc8cf4bcc}"/>
+</objects>

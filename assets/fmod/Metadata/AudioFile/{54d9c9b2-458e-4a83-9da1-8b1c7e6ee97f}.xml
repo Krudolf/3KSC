@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{54d9c9b2-458e-4a83-9da1-8b1c7e6ee97f}">
+        <property name="assetPath">
+            <value>sounds/voices/plup/risa_3.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.9951927437641723</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1b318cde-adf7-4a3a-b9c5-7daf1f771420}</destination>
+        </relationship>
+    </object>
+</objects>

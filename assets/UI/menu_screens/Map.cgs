@@ -1,0 +1,27 @@
+# Map creen
+
+# sn is used for screen name [SPRITE_URL X Y WIDTH HEIGHT Z_INDEX(OPTIONAL)]
+sn  assets/UI/menu_screens/Map/Name.png     0   -267    1024    128 
+
+# n is used for menu nodes [INDEX SPRITE_URL X Y WIDTH HEIGHT]
+n   0   assets/UI/menu_screens/Map/FusFus.png          0   -150    640     140
+n   1   assets/UI/menu_screens/Map/Sakura.png          0      0    640     140
+n   2   assets/UI/menu_screens/Map/Kawaiisaki.png      0    150    640     140
+
+# s is used for selector (hand cursor) [SPRITE_URL WIDTH HEIGHT]
+s   assets/UI/menu_screens/Common/Selector.png  64  64
+
+# hl, vl and tl are used to link nodes horizontally, vertically and with their targets
+vl  0   1
+vl  1   2
+vl  2   0
+
+# ps, ns and ss are used to link screen with previous, next and settings screen
+ps  CharacterLocal
+
+# c is used for controls tutorial [TEX1 TEX2]
+c   assets/UI/menu_screens/Controls/JS_Type2.png    assets/UI/menu_screens/Controls/KB_Type2.png
+
+# x is used for extra sprites [SPRITE_URL X Y WIDTH HEIGHT Z_INDEX(OPTIONAL)]
+x   assets/UI/menu_screens/Common/DLC.png   384     0   128     128 
+x   assets/UI/menu_screens/Common/DLC.png   384   150   128     128 

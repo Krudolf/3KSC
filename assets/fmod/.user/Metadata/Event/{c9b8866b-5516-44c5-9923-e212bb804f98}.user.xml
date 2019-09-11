@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="Event" id="{c9b8866b-5516-44c5-9923-e212bb804f98}">
+        <relationship name="uiLastParameterSelection">
+            <destination>{8d64c8b6-194a-4606-8e3d-3434acaed82a}</destination>
+        </relationship>
+    </object>
+    <object class="MasterTrack" id="{feeb8974-82cd-4b72-9b91-dabbda8abcac}"/>
+    <object class="MixerInput" id="{dd058681-7168-464e-827e-be08402355db}"/>
+    <object class="EventAutomatableProperties" id="{e886f892-7d9d-4048-9373-6a6357957fa1}"/>
+    <object class="MarkerTrack" id="{bdbcd859-c59a-45bd-84c7-d78ae46d5f93}"/>
+    <object class="GroupTrack" id="{0c34ff2b-ccab-4e5a-a3ff-09d662ae04ae}"/>
+    <object class="Timeline" id="{8d64c8b6-194a-4606-8e3d-3434acaed82a}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0012372243141473909</value>
+        </property>
+    </object>
+    <object class="EventMixerMaster" id="{69f529bb-efa4-4deb-9862-176545b7fdf9}">
+        <relationship name="input">
+            <destination>{438ba751-0ea4-4543-885b-2b50c211d388}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{9501b346-6fab-4392-92a0-0dff54ee0402}"/>
+    <object class="MixerBusPanner" id="{90b61e8e-ddd3-4c15-a13b-81616918152c}"/>
+    <object class="EventMixerGroup" id="{438ba751-0ea4-4543-885b-2b50c211d388}"/>
+    <object class="MixerBusEffectChain" id="{7781bc35-161c-48d3-88e6-009df04b7434}"/>
+    <object class="MixerBusPanner" id="{7ee6878f-8337-4eaa-9fcd-c498d87b6919}"/>
+    <object class="MixerBusFader" id="{e66eb7a9-7756-4a97-b266-a7f4de36d8ea}"/>
+    <object class="MixerBusEffectChain" id="{dc8a7329-d3a7-4bd1-a546-a466b6104691}"/>
+    <object class="MixerBusPanner" id="{a5e760e6-1413-4cdb-9782-3ec5b305cae6}"/>
+    <object class="MixerBusFader" id="{00bfc3b1-249e-4f5d-b615-50711fc175c0}"/>
+    <object class="MixerBusFader" id="{ddcc3b52-e6b5-478c-8a4e-bc0347b1e684}"/>
+</objects>

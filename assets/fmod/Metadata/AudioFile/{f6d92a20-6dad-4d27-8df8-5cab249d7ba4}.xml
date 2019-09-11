@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{f6d92a20-6dad-4d27-8df8-5cab249d7ba4}">
+        <property name="assetPath">
+            <value>sounds/hard/miyagi/golpe_bambu_2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.30768707482993196</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1b318cde-adf7-4a3a-b9c5-7daf1f771420}</destination>
+        </relationship>
+    </object>
+</objects>

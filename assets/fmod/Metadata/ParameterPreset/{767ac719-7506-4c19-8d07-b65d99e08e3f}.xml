@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{767ac719-7506-4c19-8d07-b65d99e08e3f}">
+        <property name="name">
+            <value>Atak</value>
+        </property>
+        <relationship name="folder">
+            <destination>{edc23a1f-a7fd-49a8-a76c-17ad097010cc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{486189c3-7564-4135-8881-f7e96afe9490}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{486189c3-7564-4135-8881-f7e96afe9490}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

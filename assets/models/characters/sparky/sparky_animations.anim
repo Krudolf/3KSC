@@ -1,0 +1,7 @@
+# archivo que contiene las rutas de todos los .anim de sparky
+assets/models/characters/sparky/sparky_quieto.anim 1 1
+assets/models/characters/sparky/sparky_andar.anim 0 0
+assets/models/characters/sparky/sparky_salto.anim 0 0
+assets/models/characters/sparky/sparky_shock.anim 0 0
+assets/models/characters/sparky/sparky_ulti.anim 0 0
+assets/models/characters/sparky/sparky_basico.anim 0 0

@@ -1,0 +1,41 @@
+# Menu Character screen
+
+# sn is used for screen name [SPRITE_URL X Y WIDTH HEIGHT Z_INDEX(OPTIONAL)]
+sn  assets/UI/menu_screens/CharacterSelect/Name.png     0   -267    1024    128 
+
+# n is used for menu nodes [INDEX SPRITE_URL X Y WIDTH HEIGHT]
+n   0   assets/UI/menu_screens/CharacterSelect/P1.png               -256    0   200     300
+n   1   assets/UI/menu_screens/CharacterSelect/P2.png                256    0   200     300
+n   2   assets/UI/menu_screens/CharacterSelect/BorderP1.png         -256    0   220     320
+n   3   assets/UI/menu_screens/CharacterSelect/BorderP2.png          256    0   220     320
+
+# t is used to add extra textures to a node sprite [NODE_INDEX TEXTURE_URL]
+t   0   assets/UI/menu_screens/CharacterSelect/PlupP1.png
+t   0   assets/UI/menu_screens/CharacterSelect/SparkyP1.png
+t   0   assets/UI/menu_screens/CharacterSelect/RandomP1.png
+t   0   assets/UI/menu_screens/CharacterSelect/AI.png
+t   0   assets/UI/menu_screens/CharacterSelect/PlupAI.png
+t   0   assets/UI/menu_screens/CharacterSelect/SparkyAI.png
+t   0   assets/UI/menu_screens/CharacterSelect/RandomAI.png
+
+t   1   assets/UI/menu_screens/CharacterSelect/PlupP2.png
+t   1   assets/UI/menu_screens/CharacterSelect/SparkyP2.png
+t   1   assets/UI/menu_screens/CharacterSelect/RandomP2.png
+t   1   assets/UI/menu_screens/CharacterSelect/AI.png
+t   1   assets/UI/menu_screens/CharacterSelect/PlupAI.png
+t   1   assets/UI/menu_screens/CharacterSelect/SparkyAI.png
+t   1   assets/UI/menu_screens/CharacterSelect/RandomAI.png
+t   1   assets/UI/menu_screens/CharacterSelect/PlayerUnknown.png
+
+t   2   assets/UI/menu_screens/CharacterSelect/BorderAI.png
+t   3   assets/UI/menu_screens/CharacterSelect/BorderAI.png
+
+# hl, vl and tl are used to link nodes horizontally, vertically and with their targets
+
+# ps, ns and ss are used to link screen with previous, next and settings screen
+ps Main
+ns Map
+ss BattleSettings
+
+# c is used for controls tutorial [TEX1 TEX2]
+c   assets/UI/menu_screens/Controls/JS_Type4.png    assets/UI/menu_screens/Controls/KB_Type4.png

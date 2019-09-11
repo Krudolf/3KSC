@@ -1,0 +1,8 @@
+# archivo que contiene las rutas de todos los .anim de plup
+assets/models/characters/plup/plup_quieto.anim 1 1
+assets/models/characters/plup/plup_andar.anim 0 0
+assets/models/characters/plup/plup_salto.anim 0 0
+assets/models/characters/plup/plup_munyeco.anim 0 0
+assets/models/characters/plup/plup_ulti.anim 0 0
+assets/models/characters/plup/plup_basico.anim 0 0
+assets/models/characters/plup/plup_disparo.anim 0 0

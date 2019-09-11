@@ -1,0 +1,19 @@
+# Menu Tuturial screen
+
+# n is used for menu nodes [INDEX SPRITE_URL X Y WIDTH HEIGHT]
+n   0   assets/UI/menu_screens/Tutorial/JS.png    0   -30   1024    708
+n   1   assets/UI/menu_screens/Tutorial/KB.png    0   -30   1024    708
+
+# hl, vl and tl are used to link nodes horizontally, vertically and with their targets
+hl  0   1
+hl  1   0
+
+tl  0   Main
+tl  1   Main
+
+# ps, ns and ss are used to link screen with previous, next and settings screen
+ps  Main
+ns  Main
+
+# c is used for controls tutorial [TEX1 TEX2]
+c   assets/UI/menu_screens/Controls/JS_Type2.png    assets/UI/menu_screens/Controls/KB_Type2.png

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{aa1ac5a9-aa4b-432e-8f5a-c0a87418f9ac}">
+        <property name="name">
+            <value>hability_3</value>
+        </property>
+        <relationship name="folder">
+            <destination>{edc23a1f-a7fd-49a8-a76c-17ad097010cc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{dfec2cf0-dae1-4a32-bd20-90409bd57647}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{dfec2cf0-dae1-4a32-bd20-90409bd57647}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

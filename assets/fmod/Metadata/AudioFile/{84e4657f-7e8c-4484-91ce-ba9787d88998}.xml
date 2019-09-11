@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{84e4657f-7e8c-4484-91ce-ba9787d88998}">
+        <property name="assetPath">
+            <value>sounds/voices/luka/aleatoria2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.6586621315192742</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1b318cde-adf7-4a3a-b9c5-7daf1f771420}</destination>
+        </relationship>
+    </object>
+</objects>
